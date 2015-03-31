@@ -7,6 +7,13 @@
 <title>Success</title>
 </head>
 <body>
-<h1>${msg}</h1>
+<table>
+<tr>
+<td>username:</td>
+<td>${log1.name}</td>
+<td>passwrod:</td>
+<td>${log1.password}</td>
+</tr>
+</table>
 </body>
 </html>
